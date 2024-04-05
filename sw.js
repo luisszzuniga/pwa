@@ -6,14 +6,8 @@ const cacheName = `myapp-${version}`;
 const filesToCache = [
     "/index.html",
     "/style.css",
-    "/yan/index.html",
-    "/yan/main.js",
-    "/daily-xkcd/index.html",
-    "/daily-xkcd/main.js",
-    "/todo-db/index.html",
-    "/todo-db/main.js",
-    "/icons/github-icon_72x72.png",
-    "/icons/github-icon_512x512.png"
+    "/addresses/index.html",
+    "/addresses/main.js",
 ];
 
 // When installing the service worker,
