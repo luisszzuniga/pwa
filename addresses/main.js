@@ -1,3 +1,13 @@
+const submitButton = document.getElementById("submit");
+
+submitButton.addEventListener("click", () => {
+    const name = document.getElementById("name");
+
+    const address = new Address(name.value);
+    console.log(address);
+});
+
+
 // const quill = new Quill("#editor", { theme: "snow" }); 
 
 // const chooseFileButton = document.querySelector("#choosefile");
